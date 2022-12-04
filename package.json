@@ -1,0 +1,17 @@
+{
+  "name": "realtime-bridge",
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "This is a very minimalistic library designed using a subscription-based model to listen to REST API endpoint changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Ribbink",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
